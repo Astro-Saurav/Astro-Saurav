@@ -39,7 +39,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.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 }}
+          github_token: ${{ secrets.snake }}
           branch: output  # Push to the output branch
           force: true
 
@@ -49,4 +49,4 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.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 }}
+          GITHUB_TOKEN: ${{ secrets.snake }}
