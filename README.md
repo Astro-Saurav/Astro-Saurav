@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Saurav Kumar</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate developer from India</h3>
 
 <img align="right" alt="coding" width="400" src="https://imgs.search.brave.com/TqGOkEdROQgNx0Fcudi0IfCIJYMni8-DXMWRTn9_g4g/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTAuZ2lwaHkuY29t/L21lZGlhL2ZHMDAw/QVZDSU85OFkvMjAw/LmdpZj9jaWQ9Nzkw/Yjc2MTFjbnRoajln/Z2h4b3FnNTRtM3Fl/MDhrYjQ4NXVwd2dp/NnF3YzA5bGNsJmVw/PXYxX2dpZnNfc2Vh/cmNoJnJpZD0yMDAu/Z2lmJmN0PWc.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=astro-saurav&label=Profile%20views&color=0e75b6&style=flat" alt="astro-saurav" /> </p>
