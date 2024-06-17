@@ -35,7 +35,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.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 }}
+          github_token: ${{ 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 }}
           branch: output  # Push to the output branch
           force: true
 
