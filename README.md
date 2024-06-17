@@ -2,8 +2,9 @@
     <img height="150" src="https://media4.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif?cid=6c09b952si8d5ifypco8njtosf2sarpv98d04xjfm2mdtxz4&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
 </div>
 
-<h1 align="center">Hi 👋, I'm Saurav Kumar</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h1 align="center"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1&vCenter=true&random=false&width=200&lines=Hi+%F0%9F%91%8B;I'm+Saurav+Kumar" alt="Typing SVG" /></a> </h1>
+
+<h3 align="center"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1149F7&random=false&width=435&lines=A+passionate+developer+from+India" alt="Typing SVG" /></a> </h3>
 
 <img align="right" alt="coding" width="400" src="https://imgs.search.brave.com/TqGOkEdROQgNx0Fcudi0IfCIJYMni8-DXMWRTn9_g4g/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTAuZ2lwaHkuY29t/L21lZGlhL2ZHMDAw/QVZDSU85OFkvMjAw/LmdpZj9jaWQ9Nzkw/Yjc2MTFjbnRoajln/Z2h4b3FnNTRtM3Fl/MDhrYjQ4NXVwd2dp/NnF3YzA5bGNsJmVw/PXYxX2dpZnNfc2Vh/cmNoJnJpZD0yMDAu/Z2lmJmN0PWc.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=astro-saurav&label=Profile%20views&color=0e75b6&style=flat" alt="astro-saurav" /> </p>
