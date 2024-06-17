@@ -19,7 +19,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks repo under $GITHUB_WORKSHOP, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # Generates the snake
       - name: Generate Snake
@@ -28,7 +28,7 @@ jobs:
           github_user_name: Astro-Saurav
           outputs: dist
 
-      # show the status of the build. Makes it easier for debugging (if there's any issues).
+      # Show the status of the build. Makes it easier for debugging (if there's any issues).
       - run: git status
 
       # Push the changes
@@ -41,7 +41,7 @@ jobs:
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
-          # the output branch we mentioned above
+          # The output branch we mentioned above
           target_branch: output
           build_dir: dist
         env:
