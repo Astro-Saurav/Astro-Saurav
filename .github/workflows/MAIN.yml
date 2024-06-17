@@ -9,6 +9,10 @@ on:
   # This command allows us to run the Action manually from the Actions tab.
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+
 # The sequence of runs in this workflow:
 jobs:
   # This workflow contains a single job called "build"
@@ -35,7 +39,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ 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 }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: output  # Push to the output branch
           force: true
 
