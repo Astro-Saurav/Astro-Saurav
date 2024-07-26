@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **0501saurav@gmail.com**
 
-- ⚡ Fun fact **T think I am funny 😂🤣😅**
+- ⚡ Fun fact **I think I am funny 😂🤣😅**
 
 <h3 align="left"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=&random=false&width=300&height=60&lines=Connect+with+me%3A" alt="Typing SVG" /></a> </h3>
 <p align="left">
