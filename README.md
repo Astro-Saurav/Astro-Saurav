@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **DSA in c ,Node js**
 
-- 📫 How to reach me **[email](0501saurav@gmail.com)**
+- 📫 How to reach me **[email](mailto:0501saurav@gmail.com)**
 
 - ⚡ Fun fact **I think I am funny 😂🤣😅**
 
