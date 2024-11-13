@@ -35,4 +35,3 @@
 
 <p><img align="center"/><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=&random=false&width=300&height=60&lines=Contributions+" alt="Typing SVG" /> </a></p>
 
-![snake gif](https://github.com/Astro-Saurav/Astro-Saurav/blob/output/github-contribution-grid-snake.gif)
