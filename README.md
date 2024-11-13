@@ -32,6 +32,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=astro-saurav&show_icons=true&locale=en" alt="astro-saurav" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=astro-saurav&" alt="astro-saurav" /></p>
-
-<p><img align="center"/><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=&random=false&width=300&height=60&lines=Contributions+" alt="Typing SVG" /> </a></p>
-
