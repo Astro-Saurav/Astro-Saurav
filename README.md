@@ -82,7 +82,7 @@ A passionate and detail-oriented developer from India with a focus on backend te
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=astro-saurav&show_icons=true&locale=en&theme=tokyonight" alt="astro-saurav" />
 </p>
 <p align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=astro-saurav&theme=tokyonight" alt="astro-saurav" />
+  <img align="center" src="https://streak-stats.demolab.com/?user=astro-saurav&theme=tokyonight" alt="astro-saurav" />
 </p>
 <p align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=astro-saurav&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="astro-saurav" />
