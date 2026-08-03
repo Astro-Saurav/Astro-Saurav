@@ -1,209 +1,122 @@
-<svg width="900" height="350" viewBox="0 0 900 350" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', 'Courier New', monospace">
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', 'Courier New', monospace">
   <defs>
-    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#161B22"/>
-      <stop offset="100%" stop-color="#0D1117"/>
-    </linearGradient>
-    <linearGradient id="waveGradGreen" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00FF9C" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#00FF9C" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="waveGradCyan" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="neonGlowGreen" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="neonGlowCyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
   <!-- Outer Frame & Background -->
-  <rect x="1" y="1" width="898" height="348" rx="8" fill="#0A0E14" stroke="#1F6FEB" stroke-width="1.2"/>
-  <rect x="1" y="1" width="898" height="32" rx="8" fill="#161B22"/>
-  <rect x="1" y="20" width="898" height="13" fill="#161B22"/>
+  <rect x="1" y="1" width="898" height="258" rx="8" fill="#0A0E14" stroke="#1F6FEB" stroke-width="1.2"/>
+  <rect x="1" y="1" width="898" height="34" rx="8" fill="#161B22"/>
+  <rect x="1" y="20" width="898" height="15" fill="#161B22"/>
   
   <!-- Title bar elements -->
-  <circle cx="22" cy="16" r="5" fill="#FF5F56"/>
-  <circle cx="40" cy="16" r="5" fill="#FFBD2E"/>
-  <circle cx="58" cy="16" r="5" fill="#27C93F"/>
-  <text x="80" y="21" fill="#00FF9C" font-size="12" font-weight="600" letter-spacing="1.5">/// OPERATOR DEVELOPMENT TELEMETRY &amp; REAL-TIME SECURITY AUDIT ///</text>
-  <text x="875" y="21" fill="#58A6FF" font-size="11" text-anchor="end" opacity="0.8">SYSTEM RESILIENT: 100%</text>
+  <circle cx="24" cy="17" r="5" fill="#FF5F56"/>
+  <circle cx="42" cy="17" r="5" fill="#FFBD2E"/>
+  <circle cx="60" cy="17" r="5" fill="#27C93F"/>
+  <text x="82" y="22" fill="#00FF9C" font-size="12.5" font-weight="600" letter-spacing="1.2">/// CORE TECH STACK &amp; DEVELOPER METRICS ///</text>
+  <text x="868" y="22" fill="#58A6FF" font-size="11" text-anchor="end" opacity="0.8">SYSTEM NORMAL</text>
 
-  <!-- ─── COLUMN 1: TECHNOLOGY SPECTRUM & STACK WEIGHTS (x=25, width=275) ─── -->
-  <g transform="translate(25, 48)" font-size="12">
-    <text x="0" y="8" fill="#E6EDF3" font-size="13" font-weight="600" letter-spacing="1">TECHNOLOGY SPECTRUM</text>
-    <text x="0" y="24" fill="#8B949E" font-size="10">Verified codebase stack distribution</text>
+  <!-- ─── LEFT PANEL: CORE DEVELOPMENT STACK (x=35 to 440, width=405) ─── -->
+  <g transform="translate(35, 56)" font-size="12">
+    <text x="0" y="8" fill="#E6EDF3" font-size="13.5" font-weight="600" letter-spacing="1">CORE DEVELOPMENT STACK</text>
+    <text x="0" y="25" fill="#8B949E" font-size="10.5">Primary language &amp; framework proficiencies</text>
 
     <!-- Python -->
-    <g transform="translate(0, 40)">
-      <text x="0" y="10" fill="#E6EDF3" font-weight="600" font-size="11.5">Python</text>
-      <text x="65" y="10" fill="#8B949E" font-size="10">[Cybersecurity &amp; AI]</text>
-      <text x="270" y="10" fill="#3776AB" font-weight="600" font-size="12" text-anchor="end">48.2%</text>
-      <rect x="0" y="16" width="270" height="6" rx="3" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
-      <rect x="0" y="16" width="130" height="6" rx="3" fill="#3776AB">
-        <animate attributeName="width" from="0" to="130" dur="1.2s" fill="freeze"/>
+    <g transform="translate(0, 48)">
+      <text x="0" y="0" fill="#E6EDF3" font-weight="600" font-size="12">Python</text>
+      <text x="60" y="0" fill="#8B949E" font-size="11">· Cybersecurity, AI &amp; Tooling</text>
+      <text x="390" y="0" fill="#3776AB" font-weight="600" font-size="12" text-anchor="end">48%</text>
+      <rect x="0" y="8" width="390" height="7" rx="3.5" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+      <rect x="0" y="8" width="187" height="7" rx="3.5" fill="#3776AB">
+        <animate attributeName="width" from="0" to="187" dur="1.2s" fill="freeze"/>
       </rect>
-      <text x="0" y="31" fill="#7D8590" font-size="9.5">PyTorch, Genkit, Custom DAST &amp; Automation</text>
     </g>
 
     <!-- TypeScript / JS -->
-    <g transform="translate(0, 95)">
-      <text x="0" y="10" fill="#E6EDF3" font-weight="600" font-size="11.5">TypeScript / JS</text>
-      <text x="110" y="10" fill="#8B949E" font-size="10">[Full-Stack]</text>
-      <text x="270" y="10" fill="#3178C6" font-weight="600" font-size="12" text-anchor="end">28.5%</text>
-      <rect x="0" y="16" width="270" height="6" rx="3" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
-      <rect x="0" y="16" width="77" height="6" rx="3" fill="#3178C6">
-        <animate attributeName="width" from="0" to="77" dur="1.4s" fill="freeze"/>
+    <g transform="translate(0, 88)">
+      <text x="0" y="0" fill="#E6EDF3" font-weight="600" font-size="12">TypeScript / JS</text>
+      <text x="125" y="0" fill="#8B949E" font-size="11">· Next.js &amp; Full-Stack Web</text>
+      <text x="390" y="0" fill="#3178C6" font-weight="600" font-size="12" text-anchor="end">28%</text>
+      <rect x="0" y="8" width="390" height="7" rx="3.5" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+      <rect x="0" y="8" width="109" height="7" rx="3.5" fill="#3178C6">
+        <animate attributeName="width" from="0" to="109" dur="1.4s" fill="freeze"/>
       </rect>
-      <text x="0" y="31" fill="#7D8590" font-size="9.5">Next.js, React, Tailwind, Vite &amp; Chrome MCP</text>
     </g>
 
     <!-- SQL & Prisma -->
-    <g transform="translate(0, 150)">
-      <text x="0" y="10" fill="#E6EDF3" font-weight="600" font-size="11.5">SQL &amp; Prisma</text>
-      <text x="90" y="10" fill="#8B949E" font-size="10">[Data Connect]</text>
-      <text x="270" y="10" fill="#00FF9C" font-weight="600" font-size="12" text-anchor="end">13.8%</text>
-      <rect x="0" y="16" width="270" height="6" rx="3" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
-      <rect x="0" y="16" width="37" height="6" rx="3" fill="#00FF9C">
-        <animate attributeName="width" from="0" to="37" dur="1.6s" fill="freeze"/>
+    <g transform="translate(0, 128)">
+      <text x="0" y="0" fill="#E6EDF3" font-weight="600" font-size="12">SQL &amp; Prisma</text>
+      <text x="100" y="0" fill="#8B949E" font-size="11">· Relational Schemas &amp; Data Connect</text>
+      <text x="390" y="0" fill="#00FF9C" font-weight="600" font-size="12" text-anchor="end">14%</text>
+      <rect x="0" y="8" width="390" height="7" rx="3.5" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+      <rect x="0" y="8" width="55" height="7" rx="3.5" fill="#00FF9C">
+        <animate attributeName="width" from="0" to="55" dur="1.6s" fill="freeze"/>
       </rect>
-      <text x="0" y="31" fill="#7D8590" font-size="9.5">Firebase SQL Connect &amp; PostgreSQL Schemas</text>
     </g>
 
     <!-- Bash -->
-    <g transform="translate(0, 205)">
-      <text x="0" y="10" fill="#E6EDF3" font-weight="600" font-size="11.5">Bash &amp; Shell</text>
-      <text x="90" y="10" fill="#8B949E" font-size="10">[Ops / Recon]</text>
-      <text x="270" y="10" fill="#FCC624" font-weight="600" font-size="12" text-anchor="end">9.5%</text>
-      <rect x="0" y="16" width="270" height="6" rx="3" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
-      <rect x="0" y="16" width="26" height="6" rx="3" fill="#FCC624">
-        <animate attributeName="width" from="0" to="26" dur="1.8s" fill="freeze"/>
+    <g transform="translate(0, 168)">
+      <text x="0" y="0" fill="#E6EDF3" font-weight="600" font-size="12">Bash &amp; Shell</text>
+      <text x="100" y="0" fill="#8B949E" font-size="11">· Linux DevOps &amp; Automation</text>
+      <text x="390" y="0" fill="#FCC624" font-weight="600" font-size="12" text-anchor="end">10%</text>
+      <rect x="0" y="8" width="390" height="7" rx="3.5" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+      <rect x="0" y="8" width="39" height="7" rx="3.5" fill="#FCC624">
+        <animate attributeName="width" from="0" to="39" dur="1.8s" fill="freeze"/>
       </rect>
-      <text x="0" y="31" fill="#7D8590" font-size="9.5">Linux hard-ening, automated recon &amp; Docker</text>
     </g>
   </g>
 
-  <!-- Vertical Separator 1 -->
-  <line x1="315" y1="45" x2="315" y2="335" stroke="#1F6FEB" stroke-width="0.8" opacity="0.4"/>
+  <!-- Center Vertical Divider -->
+  <line x1="465" y1="52" x2="465" y2="242" stroke="#1F6FEB" stroke-width="1" opacity="0.35"/>
 
-  <!-- ─── COLUMN 2: ACTIVITY & VULN PULSE WAVEFORM (x=335, width=280) ─── -->
-  <g transform="translate(335, 48)" font-size="12">
-    <text x="0" y="8" fill="#E6EDF3" font-size="13" font-weight="600" letter-spacing="1">ACTIVITY &amp; THREAT PULSE</text>
-    <text x="0" y="24" fill="#00FF9C" font-size="10" opacity="0.9">● LIVE THREAD: CONTINUOUS PIPELINE UPTIME</text>
+  <!-- ─── RIGHT PANEL: PROFILE METRICS & ACHIEVEMENTS (x=490 to 865, width=375) ─── -->
+  <g transform="translate(490, 56)" font-size="12">
+    <text x="0" y="8" fill="#E6EDF3" font-size="13.5" font-weight="600" letter-spacing="1">PROFILE &amp; SECURITY METRICS</text>
+    <text x="0" y="25" fill="#8B949E" font-size="10.5">Verified operator achievements &amp; standards</text>
 
-    <!-- Legend -->
-    <g transform="translate(0, 36)" font-size="9.5">
-      <rect x="0" y="1" width="8" height="8" rx="1" fill="#00FF9C"/>
-      <text x="12" y="9" fill="#C9D1D9">Code Commits &amp; Builds</text>
-      <rect x="150" y="1" width="8" height="8" rx="1" fill="#00E5FF"/>
-      <text x="162" y="9" fill="#C9D1D9">DAST / Recon Scans</text>
-    </g>
-
-    <!-- Graph container frame -->
-    <g transform="translate(0, 58)">
-      <rect x="0" y="0" width="280" height="150" rx="4" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
-
-      <!-- Y-Axis Grid Lines & Labels -->
-      <line x1="25" y1="20" x2="275" y2="20" stroke="#21262D" stroke-width="0.8" stroke-dasharray="3,3"/>
-      <text x="20" y="23" fill="#484F58" font-size="9" text-anchor="end">80+</text>
-
-      <line x1="25" y1="60" x2="275" y2="60" stroke="#21262D" stroke-width="0.8" stroke-dasharray="3,3"/>
-      <text x="20" y="63" fill="#484F58" font-size="9" text-anchor="end">50+</text>
-
-      <line x1="25" y1="100" x2="275" y2="100" stroke="#21262D" stroke-width="0.8" stroke-dasharray="3,3"/>
-      <text x="20" y="103" fill="#484F58" font-size="9" text-anchor="end">20+</text>
-
-      <line x1="25" y1="135" x2="275" y2="135" stroke="#30363D" stroke-width="1"/>
-      <text x="20" y="138" fill="#484F58" font-size="9" text-anchor="end">0</text>
-
-      <!-- Wave 2 (Cyan DAST Scans - behind) -->
-      <path d="M25,135 L25,120 Q60,110 95,80 T160,95 T220,50 T275,70 L275,135 Z" fill="url(#waveGradCyan)"/>
-      <path d="M25,120 Q60,110 95,80 T160,95 T220,50 T275,70" fill="none" stroke="#00E5FF" stroke-width="1.8" filter="url(#neonGlowCyan)"/>
-
-      <!-- Wave 1 (Green Commits - in front) -->
-      <path d="M25,135 L25,105 Q65,125 110,65 T180,45 T230,15 T275,30 L275,135 Z" fill="url(#waveGradGreen)"/>
-      <path d="M25,105 Q65,125 110,65 T180,45 T230,15 T275,30" fill="none" stroke="#00FF9C" stroke-width="2.2" filter="url(#neonGlowGreen)">
-        <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite"/>
-      </path>
-
-      <!-- Interactive animated nodes -->
-      <circle cx="110" cy="65" r="3.5" fill="#00FF9C" filter="url(#neonGlowGreen)">
-        <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="230" cy="15" r="4.5" fill="#00FF9C" filter="url(#neonGlowGreen)">
-        <animate attributeName="r" values="3.5;6.5;3.5" dur="1.5s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="220" cy="50" r="3.5" fill="#00E5FF" filter="url(#neonGlowCyan)">
-        <animate attributeName="r" values="3;5;3" dur="2.2s" repeatCount="indefinite" begin="0.7s"/>
-      </circle>
-    </g>
-
-    <!-- X-axis Timeline Tags -->
-    <text x="5" y="222" fill="#7D8590" font-size="9.5">30 DAYS AGO</text>
-    <text x="140" y="222" fill="#7D8590" font-size="9.5" text-anchor="middle">PEAK RECON ACTIVITY</text>
-    <text x="275" y="222" fill="#00FF9C" font-size="9.5" font-weight="600" text-anchor="end">REAL-TIME [ACTIVE]</text>
-
-    <!-- Bottom KPI Bar -->
-    <g transform="translate(0, 236)">
-      <rect x="0" y="0" width="280" height="42" rx="4" fill="#161B22" stroke="#1F6FEB" stroke-width="0.8"/>
-      <text x="14" y="17" fill="#8B949E" font-size="9.5">ACTIVE WORKSPACES</text>
-      <text x="14" y="32" fill="#00FF9C" font-size="12" font-weight="600">18+ MONITORED</text>
-
-      <line x1="140" y1="6" x2="140" y2="36" stroke="#30363D" stroke-width="1"/>
-
-      <text x="154" y="17" fill="#8B949E" font-size="9.5">COMMIT INTEGRITY</text>
-      <text x="154" y="32" fill="#58A6FF" font-size="12" font-weight="600">100% VERIFIED</text>
-    </g>
-  </g>
-
-  <!-- Vertical Separator 2 -->
-  <line x1="635" y1="45" x2="635" y2="335" stroke="#1F6FEB" stroke-width="0.8" opacity="0.4"/>
-
-  <!-- ─── COLUMN 3: SECURITY AUDIT & OPERATOR INTEGRITY (x=650, width=225) ─── -->
-  <g transform="translate(650, 48)" font-size="12">
-    <text x="0" y="8" fill="#E6EDF3" font-size="13" font-weight="600" letter-spacing="1">SECURITY AUDIT HUD</text>
-    <text x="0" y="24" fill="#8B949E" font-size="10">Automated defense credentials</text>
-
-    <!-- Card 1 -->
-    <g transform="translate(0, 38)">
-      <rect x="0" y="0" width="225" height="52" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-      <text x="10" y="16" fill="#7D8590" font-size="9.5" font-weight="600" letter-spacing="0.5">CODEBASE SECURITY</text>
-      <circle cx="205" cy="12" r="3" fill="#00FF9C">
+    <!-- 2x2 Metric Grid -->
+    
+    <!-- BOX 1: Top-Left (Contributions & Activity) -->
+    <g transform="translate(0, 42)">
+      <rect x="0" y="0" width="182" height="65" rx="5" fill="#0D1117" stroke="#21262D" stroke-width="1.2"/>
+      <text x="14" y="20" fill="#7D8590" font-size="9.5" font-weight="600" letter-spacing="0.5">GITHUB ACTIVITY</text>
+      
+      <!-- Glowing active dot -->
+      <circle cx="164" cy="16" r="3.5" fill="#00FF9C" filter="url(#neonGlow)">
         <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
       </circle>
-      <text x="10" y="31" fill="#00FF9C" font-size="12" font-weight="600">OWASP TOP 10 HARDENED</text>
-      <text x="10" y="44" fill="#8B949E" font-size="9">Zero-Trust Auth | XSS/SQLi Immune</text>
+      
+      <text x="14" y="40" fill="#00FF9C" font-size="14" font-weight="600">ACTIVE &amp; COMMITTED</text>
+      <text x="14" y="55" fill="#8B949E" font-size="9.5">Consistent code deploy pipeline</text>
     </g>
 
-    <!-- Card 2 -->
-    <g transform="translate(0, 98)">
-      <rect x="0" y="0" width="225" height="52" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-      <text x="10" y="16" fill="#7D8590" font-size="9.5" font-weight="600" letter-spacing="0.5">AUTOMATED RECON PIPELINES</text>
-      <circle cx="205" cy="12" r="3" fill="#58A6FF"/>
-      <text x="10" y="31" fill="#58A6FF" font-size="12" font-weight="600">DAST &amp; SELENIUM SUITES</text>
-      <text x="10" y="44" fill="#8B949E" font-size="9">Continuous automated threat probes</text>
+    <!-- BOX 2: Top-Right (Security Standard) -->
+    <g transform="translate(194, 42)">
+      <rect x="0" y="0" width="182" height="65" rx="5" fill="#0D1117" stroke="#21262D" stroke-width="1.2"/>
+      <text x="14" y="20" fill="#7D8590" font-size="9.5" font-weight="600" letter-spacing="0.5">SECURITY STANDARD</text>
+      <circle cx="164" cy="16" r="3.5" fill="#58A6FF"/>
+      <text x="14" y="40" fill="#58A6FF" font-size="14" font-weight="600">OWASP TOP 10</text>
+      <text x="14" y="55" fill="#8B949E" font-size="9.5">Hardened web architecture</text>
     </g>
 
-    <!-- Card 3 -->
-    <g transform="translate(0, 158)">
-      <rect x="0" y="0" width="225" height="52" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-      <text x="10" y="16" fill="#7D8590" font-size="9.5" font-weight="600" letter-spacing="0.5">PUBLISHED INTELLIGENCE</text>
-      <circle cx="205" cy="12" r="3" fill="#FFCA28"/>
-      <text x="10" y="31" fill="#FFCA28" font-size="12" font-weight="600">IEEE XPLORE 2026 AUTHOR</text>
-      <text x="10" y="44" fill="#8B949E" font-size="9">700+ CTF Points | Cryptography &amp; RE</text>
+    <!-- BOX 3: Bottom-Left (Published Intelligence) -->
+    <g transform="translate(0, 118)">
+      <rect x="0" y="0" width="182" height="65" rx="5" fill="#0D1117" stroke="#21262D" stroke-width="1.2"/>
+      <text x="14" y="20" fill="#7D8590" font-size="9.5" font-weight="600" letter-spacing="0.5">PUBLISHED RESEARCH</text>
+      <circle cx="164" cy="16" r="3.5" fill="#FFCA28"/>
+      <text x="14" y="40" fill="#FFCA28" font-size="14" font-weight="600">IEEE XPLORE 2026</text>
+      <text x="14" y="55" fill="#8B949E" font-size="9.5">Peer-reviewed research author</text>
     </g>
 
-    <!-- Card 4 (Self-Host Assurance Badge) -->
-    <g transform="translate(0, 218)">
-      <rect x="0" y="0" width="225" height="60" rx="4" fill="rgba(0, 255, 156, 0.06)" stroke="#00FF9C" stroke-width="1" stroke-dasharray="2,2"/>
-      <text x="112" y="20" fill="#00FF9C" font-size="11" font-weight="600" text-anchor="middle">✔ ZERO THIRD-PARTY DEPENDENCY</text>
-      <text x="112" y="35" fill="#C9D1D9" font-size="9" text-anchor="middle">100% Self-Hosted Telemetry Asset</text>
-      <text x="112" y="48" fill="#7D8590" font-size="9" text-anchor="middle">[ Immune to API Rate-Limits ]</text>
+    <!-- BOX 4: Bottom-Right (CTF & Honors) -->
+    <g transform="translate(194, 118)">
+      <rect x="0" y="0" width="182" height="65" rx="5" fill="#0D1117" stroke="#21262D" stroke-width="1.2"/>
+      <text x="14" y="20" fill="#7D8590" font-size="9.5" font-weight="600" letter-spacing="0.5">COMBAT HONORS</text>
+      <circle cx="164" cy="16" r="3.5" fill="#00FF9C"/>
+      <text x="14" y="40" fill="#00FF9C" font-size="14" font-weight="600">700+ CTF POINTS</text>
+      <text x="14" y="55" fill="#8B949E" font-size="9.5">National hackathon finalist</text>
     </g>
   </g>
 </svg>
