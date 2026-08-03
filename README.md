@@ -15,11 +15,11 @@
 <br/>
 
 > **`[OPERATIONAL SUMMARY]`**  
-> **Cybersecurity Analyst & Full-Stack Security Engineer.** Specializing in web application vulnerability assessments (VAPT), Zero-Trust engineering, and AI security research. Focused on building hardened systems that stay secure under real-world attack conditions.
+> Cybersecurity analyst and software engineer specializing in web vulnerability assessment, zero-trust infrastructure, and AI security research. I build systems that stay secure under real attack conditions and write code that ships fast without exposing new attack surfaces.
 
 ---
 
-## ⚡ 0x01 · Deployed Countermeasures & Security Platforms
+## ⚡ 0x01 · Security Tools & Platforms
 
 <table>
   <tr>
@@ -27,26 +27,24 @@
       <h3>🕷️ <a href="https://github.com/Astro-Saurav/Defendrix">Defendrix — DAST Security Scanner</a></h3>
       <code>Python</code> <code>Flask</code> <code>Selenium</code> <code>MySQL</code>
       <br/><br/>
-      An automated <b>Dynamic Application Security Testing (DAST)</b> tool designed to catch flaws before attackers do.
+      An automated application security tester designed to catch injection vulnerabilities before attackers do. It runs fast and keeps setup simple.
       <br/><br/>
-      <b>Core Capabilities:</b>
       <ul>
-        <li>Autonomously scans web applications for <b>OWASP Top 10</b> vulnerabilities.</li>
-        <li>Tests injection flaws and enumerates exposed REST APIs in real-time.</li>
-        <li>Generates simple, actionable vulnerability reports with remediation steps.</li>
+        <li>Scans web apps for OWASP Top 10 flaws without manual configuration.</li>
+        <li>Tests injection points and checks exposed REST API endpoints.</li>
+        <li>Outputs clear vulnerability reports that tell developers exactly what to fix and how to patch it.</li>
       </ul>
     </td>
     <td width="50%" valign="top" style="padding: 18px; border: 1px solid #1F6FEB; background-color: #0A0E14;">
       <h3>🛰️ <a href="https://github.com/Astro-Saurav/Knoxguard">KnoxGuard — Real-Time Phishing Shield</a></h3>
       <code>Python</code> <code>Flask</code> <code>Selenium</code> <code>Heuristics</code>
       <br/><br/>
-      A desktop intrusion-prevention and URL analysis tool built to neutralize credential harvesting and phishing attacks.
+      A local intrusion prevention tool built to stop credential harvesting and phishing attacks on the desktop before payloads execute.
       <br/><br/>
-      <b>Core Capabilities:</b>
       <ul>
-        <li>Inspects live web traffic and suspicious link structures in real-time.</li>
-        <li>Uses behavioral threat heuristics to spot brand spoofing and zero-day phishing.</li>
-        <li>Alerts and intercepts user navigation before malicious payloads execute.</li>
+        <li>Inspects live traffic and breaks down link structures in real time.</li>
+        <li>Uses behavioral threat detection to catch spoofed login pages and unrated domains.</li>
+        <li>Intercepts navigation attempts instantly when a link fails verification checks.</li>
       </ul>
     </td>
   </tr>
@@ -55,26 +53,24 @@
       <h3>📰 <a href="https://github.com/Astro-Saurav/SMEH_NEWS">SMEH News — Zero-Trust CMS</a></h3>
       <code>Next.js 15</code> <code>React 19</code> <code>Express</code> <code>Prisma</code>
       <br/><br/>
-      A modern, high-concurrency content management web application engineered from the ground up with <b>Zero-Trust security</b>.
+      A content management system built on strict zero-trust principles. It handles high traffic while maintaining clear internal privilege boundaries.
       <br/><br/>
-      <b>Core Capabilities:</b>
       <ul>
-        <li>Hardened JSON Web Token (JWT) authentication and session governance.</li>
-        <li>Strict Role-Based Access Control (RBAC) preventing vertical privilege escalation.</li>
-        <li>Multi-layered input sanitization to eliminate XSS and SQL injection risks.</li>
+        <li>Enforces secure JSON web token auth with short session lifetimes and strict verification.</li>
+        <li>Applies clear role-based access control to block vertical privilege escalation.</li>
+        <li>Sanitizes all incoming data at the API edge to stop cross-site scripting and database injection.</li>
       </ul>
     </td>
     <td width="50%" valign="top" style="padding: 18px; border: 1px solid #1F6FEB; background-color: #0A0E14;">
       <h3>🤖 <a href="https://github.com/Astro-Saurav/AssistAI">AssistAI — Multimodal AI Companion</a></h3>
       <code>Next.js</code> <code>TypeScript</code> <code>Firebase Genkit</code> <code>Gemini</code>
       <br/><br/>
-      An intelligent vision assistant designed to provide real-time spatial navigation and environmental awareness for accessibility.
+      A vision assistant built to give low-vision users real-time spatial navigation and environmental awareness through natural spoken interaction.
       <br/><br/>
-      <b>Core Capabilities:</b>
       <ul>
-        <li>Uses Gemini Vision and deep AI models to analyze live optical camera streams.</li>
-        <li>Interprets physical environments, obstacles, and decodes sign language in real time.</li>
-        <li>Optimized for low-latency inference and high-reliability response delivery.</li>
+        <li>Runs Gemini Vision models to analyze optical camera feeds with minimal processing overhead.</li>
+        <li>Detects physical obstacles, identifies signs, and decodes sign language gestures directly from video streams.</li>
+        <li>Keeps inference latency low so feedback feels instantaneous and natural in everyday use.</li>
       </ul>
     </td>
   </tr>
@@ -86,34 +82,34 @@
 
 ## 📢 0x02 · The Dual-Voice Distribution Engine
 
-Every cybersecurity release, open-source project, and DevSecOps campaign coordinates communication across two distinct messaging channels to perfectly balance developer relations and enterprise compliance:
+Every release, open-source SDK, and security advisory follows a two-channel communication structure. This keeps technical clarity high for engineers while delivering clear risk metrics to executive leadership:
 
-### 🛠️ 1. The Hacker-Builder Voice (Personal & Community Channels)
-*   **Target Channels**: Personal LinkedIn, X (Twitter), GitHub, and technical developer communities.
-*   **Primary Focus**: Developer experience (DX), open-source SDK releases (Python, JavaScript, CLI), local key verification, and raw execution speed.
-*   **Tone**: Bold, direct, engineering-focused, and casual. Speaking peer-to-peer like one developer to another.
+### 🛠️ 1. The Hacker-Builder Voice (Developer Channels)
+*   **Target Channels**: Personal LinkedIn, X (Twitter), GitHub repositories, and developer community boards.
+*   **Primary Focus**: Developer experience, open-source SDK releases in Python and JavaScript, CLI speed, local key verification, and clear installation instructions.
+*   **Tone**: Direct, objective, and casual. Speak plain engineering logic like one developer talking to another over coffee. No buzzwords or PR agency fluff.
 
-### 🏢 2. The Sponsor Voice (Institutional & Corporate Handles)
-*   **Target Channels**: Corporate LinkedIn, X (Twitter), institutional newsletters, and security partner channels (e.g., IDevSec, DCG).
-*   **Primary Focus**: Enterprise risk management, Non-Human Identity (NHI) controls, governance frameworks, global root registry updates, and regulatory compliance (such as OWASP or DPDP standards).
-*   **Tone**: Calm, authoritative, and risk-oriented. Speaking directly to CISOs, security directors, and enterprise decision-makers.
+### 🏢 2. The Sponsor Voice (Institutional & Corporate Channels)
+*   **Target Channels**: Corporate and institutional feeds, security newsletters, and industry partner networks.
+*   **Primary Focus**: Enterprise risk management, non-human identity controls, system governance, root registry updates, and regulatory compliance across OWASP and data privacy standards.
+*   **Tone**: Calm, authoritative, and focused on operational risk. Present verified facts directly to CISOs, security directors, and technology governance officers.
 
 <br/>
 
 ---
 
-## 🌐 0x03 · Operational Command & Leadership
+## 🌐 0x03 · Community & Operations
 
 ### 📍 Partner — Cybersecurity Community Operations  
 **[DCG Gurugram]** · `Aug 2025 – Present`  
-- **Community Building**: Organizing regional vulnerability research meetups, live exploit demonstrations, and interactive application security workshops.  
-- **Industry Bridge**: Connecting offensive security professionals, cybersecurity researchers, and developers to share threat intelligence and defensive methodologies.  
+- Organize local vulnerability research meetups, live exploit breakdown sessions, and practical application security workshops.
+- Connect bug bounty hunters, security engineers, and developers to share actual threat data and practical defensive code.
 
 ### 📍 IoT Security Head  
 **[MRISA — Manav Rachna InfoSec Army]** · `Aug 2024 – Present`  
-- **Hardware Exploitation**: Leading hardware hackathons, embedded device firmware dissection, and protocol analysis; mentoring junior analysts in IoT attack surfaces.  
-- **CTF Architect**: Designed infrastructure, target architectures, and custom challenge labs for university Capture The Flag competitions engaging **700+ active contestants**.  
-- **Offensive Workshops**: Conducted hands-on training sessions breaking down real-world attack vectors across the **OWASP Top 10** matrix.
+- Lead embedded device firmware dissection and wireless hardware hackathons. Mentor junior analysts in practical firmware dumping and protocol analysis.
+- Build infrastructure and custom challenge networks for university Capture The Flag competitions running with over 700 active players.
+- Run technical workshops that walk through practical exploit mechanics across standard web and network attack vectors.
 
 <br/>
 
@@ -136,33 +132,33 @@ Every cybersecurity release, open-source project, and DevSecOps campaign coordin
 
 ---
 
-## 📑 0x05 · Published Intelligence & Combat Honors
+## 📑 0x05 · Research & Competition Record
 
-### 🔬 Peer-Reviewed Security Research
+### 🔬 Peer-Reviewed Research
 ```yaml
 Title       : "AI-Driven Techniques for Web Search Vulnerability Identification"
 Publication : IEEE Xplore (2026)
 Co-Authors  : Alan Jolly John, Sarthak Dubey, Saurav Kumar
-Summary     : Developed machine learning models to autonomously test, discover, and categorize security vulnerabilities across modern web search infrastructures.
+Summary     : Built machine learning models to test, discover, and categorize structural flaws across modern web search backends.
 Dossier     : https://ieeexplore.ieee.org/document/11386307
 ```
 
-### ⚔️ Combat Record & CTF Victories
+### ⚔️ CTF & Hackathon Record
 
-| Date / Year | Engagement & Competition Details | Classification | Outcome |
+| Year | Engagement & Competition Details | Classification | Outcome |
 | :---: | :--- | :---: | :---: |
-| **2025** | **INTRUSIONX** (Offensive Security & VAPT Battleground) | `Rank #1` | 🥇 **WINNER** |
+| **2025** | **INTRUSIONX** (Offensive Security & VAPT Tournament) | `Rank #1` | 🥇 **WINNER** |
 | **2024** | **Avinya Tech Fest**, IIT Guwahati (National Hackathon) | `National Finalist` | 🎖️ **FINALIST** |
 | **2023** | **Hacksplash 1.0** (Software Engineering & Innovation) | `Rank #1` | 🥇 **WINNER** |
 | **2024** | **CyCog CTF** (Capture The Flag Security Competition) | `Rank #8` | 🏅 **TOP 10** |
 | **2023** | **CyberHavoc CTF** (National Cybersecurity Tournament) | `Rank 170 / 1500+` | 🏅 **TOP 11%** |
-| **2023** | **Tech Trover Debugging** (Algorithmic & Code Debugging) | `Rank #3` | 🥉 **3RD PLACE** |
+| **2023** | **Tech Trover Debugging** (Code & Algorithmic Debugging) | `Rank #3` | 🥉 **3RD PLACE** |
 
 <br/>
 
 ---
 
-## 📡 0x06 · SOC Telemetry & Development Activity
+## 📡 0x06 · Live Telemetry & Activity
 
 <div align="center">
 
