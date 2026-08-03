@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Astro-Saurav/Astro-Saurav/main/assets/hex-grid-banner.svg" width="100%" alt="Saurav Kumar - Cybersecurity Analyst & Full-Stack Developer"/>
+<img src="https://raw.githubusercontent.com/Astro-Saurav/Astro-Saurav/main/assets/hex-grid-banner.svg" width="100%" alt="Saurav Kumar - Cybersecurity Analyst and Full-Stack Developer"/>
 
 <br/><br/>
 
@@ -24,7 +24,7 @@
 <table>
   <tr>
     <td width="50%" valign="top" style="padding: 18px; border: 1px solid #1F6FEB; background-color: #0A0E14;">
-      <h3>🕷️ <a href="https://github.com/Astro-Saurav/Defendrix">Defendrix — DAST Security Scanner</a></h3>
+      <h3>🕷️ <a href="https://github.com/Astro-Saurav/Defendrix">Defendrix: DAST Security Scanner</a></h3>
       <code>Python</code> <code>Flask</code> <code>Selenium</code> <code>MySQL</code>
       <br/><br/>
       An automated application security tester designed to catch injection vulnerabilities before attackers do. It runs fast and keeps setup simple.
@@ -36,7 +36,7 @@
       </ul>
     </td>
     <td width="50%" valign="top" style="padding: 18px; border: 1px solid #1F6FEB; background-color: #0A0E14;">
-      <h3>🛰️ <a href="https://github.com/Astro-Saurav/Knoxguard">KnoxGuard — Real-Time Phishing Shield</a></h3>
+      <h3>🛰️ <a href="https://github.com/Astro-Saurav/Knoxguard">KnoxGuard: Real-Time Phishing Shield</a></h3>
       <code>Python</code> <code>Flask</code> <code>Selenium</code> <code>Heuristics</code>
       <br/><br/>
       A local intrusion prevention tool built to stop credential harvesting and phishing attacks on the desktop before payloads execute.
@@ -50,7 +50,7 @@
   </tr>
   <tr>
     <td width="50%" valign="top" style="padding: 18px; border: 1px solid #1F6FEB; background-color: #0A0E14;">
-      <h3>📰 <a href="https://github.com/Astro-Saurav/SMEH_NEWS">SMEH News — Zero-Trust CMS</a></h3>
+      <h3>📰 <a href="https://github.com/Astro-Saurav/SMEH_NEWS">SMEH News: Zero-Trust CMS</a></h3>
       <code>Next.js 15</code> <code>React 19</code> <code>Express</code> <code>Prisma</code>
       <br/><br/>
       A content management system built on strict zero-trust principles. It handles high traffic while maintaining clear internal privilege boundaries.
@@ -62,7 +62,7 @@
       </ul>
     </td>
     <td width="50%" valign="top" style="padding: 18px; border: 1px solid #1F6FEB; background-color: #0A0E14;">
-      <h3>🤖 <a href="https://github.com/Astro-Saurav/AssistAI">AssistAI — Multimodal AI Companion</a></h3>
+      <h3>🤖 <a href="https://github.com/Astro-Saurav/AssistAI">AssistAI: Multimodal AI Companion</a></h3>
       <code>Next.js</code> <code>TypeScript</code> <code>Firebase Genkit</code> <code>Gemini</code>
       <br/><br/>
       A vision assistant built to give low-vision users real-time spatial navigation and environmental awareness through natural spoken interaction.
@@ -100,13 +100,13 @@ Every release, open-source SDK, and security advisory follows a two-channel comm
 
 ## 🌐 0x03 · Community & Operations
 
-### 📍 Partner — Cybersecurity Community Operations  
-**[DCG Gurugram]** · `Aug 2025 – Present`  
+### 📍 Partner: Cybersecurity Community Operations  
+**[DCG Gurugram]** · `Aug 2025 - Present`  
 - Organize local vulnerability research meetups, live exploit breakdown sessions, and practical application security workshops.
 - Connect bug bounty hunters, security engineers, and developers to share actual threat data and practical defensive code.
 
 ### 📍 IoT Security Head  
-**[MRISA — Manav Rachna InfoSec Army]** · `Aug 2024 – Present`  
+**[MRISA: Manav Rachna InfoSec Army]** · `Aug 2024 - Present`  
 - Lead embedded device firmware dissection and wireless hardware hackathons. Mentor junior analysts in practical firmware dumping and protocol analysis.
 - Build infrastructure and custom challenge networks for university Capture The Flag competitions running with over 700 active players.
 - Run technical workshops that walk through practical exploit mechanics across standard web and network attack vectors.
