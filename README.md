@@ -123,16 +123,7 @@ Link        : https://ieeexplore.ieee.org/document/11386307
 
 <br/><br/>
 
-<img src="https://github-readme-stats-fast.vercel.app/api?username=Astro-Saurav&show_icons=true&theme=dark&bg_color=0A0E14&title_color=00FF9C&text_color=C9D1D9&icon_color=58A6FF&border_color=1F6FEB&hide_border=false&include_all_commits=true&count_private=true" height="175" alt="GitHub Stats"/>
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Astro-Saurav&layout=compact&theme=dark&bg_color=0A0E14&title_color=00FF9C&text_color=C9D1D9&border_color=1F6FEB&hide_border=false&hide=html,css" height="175" alt="Top Languages"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=Astro-Saurav&theme=dark&background=0A0E14&border=1F6FEB&currStreakNum=00FF9C&sideNums=58A6FF&currStreakLabel=00FF9C&hide_border=false" alt="GitHub Streak Stats"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Astro-Saurav&theme=react-dark&hide_border=true" width="95%" alt="Contribution Graph"/>
+<img src="https://raw.githubusercontent.com/Astro-Saurav/Astro-Saurav/main/assets/code-telemetry.svg" width="100%" alt="Developer Operations & Code Telemetry"/>
 </div>
 
 <br/>
