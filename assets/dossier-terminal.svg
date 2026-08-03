@@ -1,0 +1,119 @@
+<svg width="900" height="270" viewBox="0 0 900 270" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Courier New',monospace">
+  <defs>
+    <!-- Clip paths for typewriter effect - LEFT PANEL -->
+    <clipPath id="lc1"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="220" begin="0.4s;mainloop.begin+0.4s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lc2"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="200" begin="1.3s;mainloop.begin+1.3s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lc3"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="240" begin="2.1s;mainloop.begin+2.1s" dur="0.75s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lc4"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="180" begin="3.0s;mainloop.begin+3.0s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lc5"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="210" begin="3.8s;mainloop.begin+3.8s" dur="0.65s" fill="freeze"/></rect></clipPath>
+    <!-- Clip paths - RIGHT PANEL -->
+    <clipPath id="rc1"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="200" begin="0.8s;mainloop.begin+0.8s" dur="0.65s" fill="freeze"/></rect></clipPath>
+    <clipPath id="rc2"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="220" begin="1.7s;mainloop.begin+1.7s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="rc3"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="190" begin="2.6s;mainloop.begin+2.6s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="rc4"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="200" begin="3.4s;mainloop.begin+3.4s" dur="0.65s" fill="freeze"/></rect></clipPath>
+    <clipPath id="rc5"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="230" begin="4.2s;mainloop.begin+4.2s" dur="0.75s" fill="freeze"/></rect></clipPath>
+    <!-- Bottom bar clip paths -->
+    <clipPath id="bc1"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="540" begin="5.0s;mainloop.begin+5.0s" dur="1.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="bc2"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="120" begin="7.0s;mainloop.begin+7.0s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="bc3"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="380" begin="7.8s;mainloop.begin+7.8s" dur="1.1s" fill="freeze"/></rect></clipPath>
+    <!-- Glow filter -->
+    <filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- Loop driver: restarts every 12s -->
+  <rect opacity="0" x="0" y="0" width="1" height="1">
+    <animate id="mainloop" attributeName="opacity" values="0;0" dur="12s" begin="0s;mainloop.end" fill="freeze"/>
+  </rect>
+
+  <!-- Outer border -->
+  <rect x="1" y="1" width="898" height="268" rx="10" fill="#0D1117" stroke="#1F6FEB" stroke-width="1.5"/>
+
+  <!-- Title bar -->
+  <rect x="1" y="1" width="898" height="36" rx="10" fill="#161B22"/>
+  <rect x="1" y="22" width="898" height="15" fill="#161B22"/>
+
+  <!-- Window buttons -->
+  <circle cx="26" cy="19" r="6" fill="#FF5F56"/>
+  <circle cx="48" cy="19" r="6" fill="#FFBD2E"/>
+  <circle cx="70" cy="19" r="6" fill="#27C93F"/>
+
+  <!-- Window title -->
+  <text x="450" y="24" text-anchor="middle" fill="#58A6FF" font-size="12" letter-spacing="2">astro@saurav-sec: ~  [OPERATOR DOSSIER — CLASSIFIED]</text>
+
+  <!-- Vertical separator line between panels -->
+  <line x1="455" y1="42" x2="455" y2="225" stroke="#1F6FEB" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ─── LEFT PANEL ─── -->
+  <!-- Panel header -->
+  <text x="24" y="58" font-size="11" fill="#1F6FEB" letter-spacing="2" opacity="0.8">┌─ IDENTITY SCAN ──────────────────────┐</text>
+
+  <!-- Typed lines left panel -->
+  <g font-size="13.5" font-weight="500">
+    <g clip-path="url(#lc1)">
+      <text x="24" y="78" fill="#00FF9C">$ id --operator</text>
+    </g>
+    <g clip-path="url(#lc2)">
+      <text x="24" y="100" fill="#8B949E">  alias  <tspan fill="#F0F6FC">astro-saurav</tspan></text>
+    </g>
+    <g clip-path="url(#lc3)">
+      <text x="24" y="122" fill="#8B949E">  role   <tspan fill="#58A6FF">appsec + iot-sec + dev</tspan></text>
+    </g>
+    <g clip-path="url(#lc4)">
+      <text x="24" y="144" fill="#8B949E">  base   <tspan fill="#F0F6FC">Faridabad, IND</tspan></text>
+    </g>
+    <g clip-path="url(#lc5)">
+      <text x="24" y="166" fill="#8B949E">  pubkey <tspan fill="#00FF9C">IEEE Xplore · 2026</tspan></text>
+    </g>
+  </g>
+
+  <!-- Panel footer left -->
+  <text x="24" y="185" font-size="11" fill="#1F6FEB" letter-spacing="2" opacity="0.8">└───────────────────────────────────────┘</text>
+
+  <!-- ─── RIGHT PANEL ─── -->
+  <!-- Panel header -->
+  <text x="465" y="58" font-size="11" fill="#1F6FEB" letter-spacing="2" opacity="0.8">┌─ THREAT METRICS ────────────────────┐</text>
+
+  <g font-size="13.5" font-weight="500">
+    <g clip-path="url(#rc1)">
+      <text x="465" y="78" fill="#00FF9C">$ vapt --summary</text>
+    </g>
+    <g clip-path="url(#rc2)">
+      <text x="465" y="100" fill="#8B949E">  ctf_wins   <tspan fill="#FFBD2E">3 × 1st place</tspan></text>
+    </g>
+    <g clip-path="url(#rc3)">
+      <text x="465" y="122" fill="#8B949E">  ctf_hosts  <tspan fill="#58A6FF">700+ participants</tspan></text>
+    </g>
+    <g clip-path="url(#rc4)">
+      <text x="465" y="144" fill="#8B949E">  scanners   <tspan fill="#F0F6FC">Defendrix, KnoxGuard</tspan></text>
+    </g>
+    <g clip-path="url(#rc5)">
+      <text x="465" y="166" fill="#8B949E">  owasp_cov  <tspan fill="#00FF9C">Top 10 — full suite</tspan></text>
+    </g>
+  </g>
+
+  <!-- Panel footer right -->
+  <text x="465" y="185" font-size="11" fill="#1F6FEB" letter-spacing="2" opacity="0.8">└────────────────────────────────────────┘</text>
+
+  <!-- ─── BOTTOM FULL-WIDTH PANEL ─── -->
+  <line x1="24" y1="195" x2="876" y2="195" stroke="#1F6FEB" stroke-width="0.5" opacity="0.4"/>
+
+  <g font-size="13.5" font-weight="500">
+    <g clip-path="url(#bc1)">
+      <text x="24" y="218" fill="#00FF9C">
+        $ mission --status
+        <tspan fill="#8B949E">  securing systems · publishing research · breaking CTFs</tspan>
+      </text>
+    </g>
+    <g clip-path="url(#bc2)">
+      <text x="24" y="240" fill="#00FF9C">$ whoami</text>
+    </g>
+    <g clip-path="url(#bc3)">
+      <text x="120" y="240" fill="#F0F6FC">astro-saurav  //  sec+dev  //  defender by default</text>
+    </g>
+  </g>
+
+  <!-- blinking cursor after last line -->
+  <rect x="510" y="228" width="9" height="16" fill="#00FF9C" opacity="0">
+    <animate attributeName="opacity" values="1;0" begin="8.9s;mainloop.begin+8.9s" dur="0.55s" repeatCount="3" fill="freeze"/>
+  </rect>
+</svg>

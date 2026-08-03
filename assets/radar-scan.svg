@@ -1,55 +1,119 @@
-<svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Courier New',monospace">
+<svg width="900" height="230" viewBox="0 0 900 230" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Courier New',monospace">
   <defs>
     <radialGradient id="sweepGrad" cx="0%" cy="0%" r="100%">
-      <stop offset="0%" stop-color="#00FF9C" stop-opacity="0.55"/>
+      <stop offset="0%" stop-color="#00FF9C" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#00FF9C" stop-opacity="0"/>
     </radialGradient>
-    <clipPath id="radarClip"><circle cx="140" cy="110" r="95"/></clipPath>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <clipPath id="radarClip"><circle cx="130" cy="115" r="85"/></clipPath>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
-  <rect x="0" y="0" width="800" height="220" fill="#0D1117"/>
+  <!-- Outer frame & Background -->
+  <rect x="1" y="1" width="898" height="228" rx="10" fill="#0D1117" stroke="#1F6FEB" stroke-width="1.5"/>
+  <rect x="1" y="1" width="898" height="30" rx="10" fill="#161B22"/>
+  <rect x="1" y="20" width="898" height="11" fill="#161B22"/>
+  <text x="25" y="20" fill="#00FF9C" font-size="12" font-weight="600" letter-spacing="1.5">/// SOC TELEMETRY &amp; REAL-TIME IDS MONITORING ///</text>
+  <text x="875" y="20" fill="#58A6FF" font-size="11" text-anchor="end" opacity="0.8">SYSTEM: ONLINE</text>
 
-  <!-- radar housing -->
-  <g clip-path="url(#radarClip)">
-    <circle cx="140" cy="110" r="95" fill="#0D1117" stroke="#1F6FEB" stroke-width="1"/>
-    <circle cx="140" cy="110" r="71" fill="none" stroke="#1F6FEB" stroke-width="0.75" opacity="0.5"/>
-    <circle cx="140" cy="110" r="47" fill="none" stroke="#1F6FEB" stroke-width="0.75" opacity="0.5"/>
-    <circle cx="140" cy="110" r="23" fill="none" stroke="#1F6FEB" stroke-width="0.75" opacity="0.5"/>
-    <line x1="45" y1="110" x2="235" y2="110" stroke="#1F6FEB" stroke-width="0.5" opacity="0.4"/>
-    <line x1="140" y1="15" x2="140" y2="205" stroke="#1F6FEB" stroke-width="0.5" opacity="0.4"/>
+  <!-- ─── RADAR SECTION (LEFT) ─── -->
+  <g transform="translate(10, 5)">
+    <g clip-path="url(#radarClip)">
+      <circle cx="130" cy="115" r="85" fill="#0A1017" stroke="#1F6FEB" stroke-width="1"/>
+      <circle cx="130" cy="115" r="63" fill="none" stroke="#1F6FEB" stroke-width="0.75" opacity="0.5"/>
+      <circle cx="130" cy="115" r="42" fill="none" stroke="#1F6FEB" stroke-width="0.75" opacity="0.5"/>
+      <circle cx="130" cy="115" r="21" fill="none" stroke="#1F6FEB" stroke-width="0.75" opacity="0.5"/>
+      <line x1="45" y1="115" x2="215" y2="115" stroke="#1F6FEB" stroke-width="0.5" opacity="0.4"/>
+      <line x1="130" y1="30" x2="130" y2="200" stroke="#1F6FEB" stroke-width="0.5" opacity="0.4"/>
 
-    <!-- rotating sweep -->
-    <g>
-      <path d="M140,110 L140,15 A95,95 0 0,1 222.5,63 Z" fill="url(#sweepGrad)">
-        <animateTransform attributeName="transform" type="rotate" from="0 140 110" to="360 140 110" dur="4s" repeatCount="indefinite"/>
-      </path>
+      <!-- Rotating sweep -->
+      <g>
+        <path d="M130,115 L130,30 A85,85 0 0,1 205,71 Z" fill="url(#sweepGrad)">
+          <animateTransform attributeName="transform" type="rotate" from="0 130 115" to="360 130 115" dur="3.5s" repeatCount="indefinite"/>
+        </path>
+      </g>
+
+      <!-- Simulated targets/blips -->
+      <circle cx="95" cy="85" r="3.5" fill="#FF5F56" filter="url(#neonGlow)">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.35;0.4" dur="3.5s" begin="0.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="160" cy="140" r="3.5" fill="#FFBD2E" filter="url(#neonGlow)">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.35;0.4" dur="3.5s" begin="1.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="175" cy="80" r="3.5" fill="#00FF9C" filter="url(#neonGlow)">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.35;0.4" dur="3.5s" begin="2.3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="100" cy="155" r="3.5" fill="#27C93F" filter="url(#neonGlow)">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.35;0.4" dur="3.5s" begin="3.1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <circle cx="130" cy="115" r="86" fill="none" stroke="#00FF9C" stroke-width="1.5" opacity="0.7"/>
+  </g>
+
+  <!-- Vertical separator -->
+  <line x1="260" y1="45" x2="260" y2="215" stroke="#1F6FEB" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ─── CENTER PANEL: THREAT LOGS ─── -->
+  <g font-size="13" fill="#8B949E" transform="translate(280, 0)">
+    <text x="0" y="55" fill="#58A6FF" font-size="14" font-weight="600" letter-spacing="1">/// AUTOMATED MITIGATION LOG ///</text>
+    
+    <g transform="translate(0, 75)">
+      <text x="0" y="0" fill="#FF5F56">[ALERT]</text>
+      <text x="60" y="0">SQLi vector attempt @ /api/auth</text>
+      <text x="290" y="0" fill="#00FF9C">[BLOCKED]</text>
+    </g>
+    
+    <g transform="translate(0, 100)">
+      <text x="0" y="0" fill="#FFBD2E">[WARN] </text>
+      <text x="60" y="0">Abnormal JWT signing algorithm</text>
+      <text x="290" y="0" fill="#00FF9C">[MITIGATED]</text>
     </g>
 
-    <!-- blips: simulated "threats" flagged and neutralized -->
-    <circle cx="100" cy="80" r="3.5" fill="#FF5F56">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.35;0.4" dur="4s" begin="0.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="175" cy="140" r="3.5" fill="#FFBD2E">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.35;0.4" dur="4s" begin="1.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="190" cy="75" r="3.5" fill="#00FF9C">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.35;0.4" dur="4s" begin="2.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="105" cy="150" r="3.5" fill="#27C93F">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.35;0.4" dur="4s" begin="3.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-  <circle cx="140" cy="110" r="96" fill="none" stroke="#00FF9C" stroke-width="1.5" opacity="0.7"/>
+    <g transform="translate(0, 125)">
+      <text x="0" y="0" fill="#FF5F56">[ALERT]</text>
+      <text x="60" y="0">XSS payload in telemetry stream</text>
+      <text x="290" y="0" fill="#00FF9C">[SANITIZED]</text>
+    </g>
 
-  <!-- readout panel -->
-  <g font-size="14" fill="#8B949E">
-    <text x="270" y="55" fill="#00FF9C" font-size="16" font-weight="600">LIVE THREAT SWEEP</text>
-    <text x="270" y="85">grid&#160;&#160;&#160;&#160;&#160;: perimeter-01</text>
-    <text x="270" y="108">scanned&#160;&#160;: 4 anomalies</text>
-    <text x="270" y="131">mitigated: 4 / 4</text>
-    <text x="270" y="154">status&#160;&#160;&#160;&#160;: <tspan fill="#00FF9C">secure</tspan></text>
-    <text x="270" y="185" fill="#58A6FF" font-size="12">"Secure by design, tested by breach."</text>
+    <g transform="translate(0, 150)">
+      <text x="0" y="0" fill="#58A6FF">[INFO] </text>
+      <text x="60" y="0">Zero-Trust perimeter validation</text>
+      <text x="290" y="0" fill="#00FF9C">[VERIFIED]</text>
+    </g>
+
+    <line x1="0" y1="170" x2="360" y2="170" stroke="#1F6FEB" stroke-width="0.5" opacity="0.4"/>
+    <text x="0" y="195" fill="#00FF9C" font-size="13" font-style="italic">"Secure by design, tested by breach."</text>
   </g>
 
-  <rect x="1" y="1" width="798" height="218" rx="10" fill="none" stroke="#1F6FEB" stroke-width="1.5"/>
+  <!-- Vertical separator -->
+  <line x1="675" y1="45" x2="675" y2="215" stroke="#1F6FEB" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ─── RIGHT PANEL: SYSTEM STATS ─── -->
+  <g transform="translate(695, 45)" font-size="12" fill="#8B949E">
+    <text x="0" y="10" fill="#58A6FF" font-size="13" font-weight="600" letter-spacing="1">DEFENSE METRICS</text>
+    
+    <text x="0" y="40">WAF Status</text>
+    <text x="175" y="40" text-anchor="end" fill="#00FF9C">ACTIVE</text>
+    <rect x="0" y="46" width="175" height="4" rx="2" fill="#161B22"/>
+    <rect x="0" y="46" width="175" height="4" rx="2" fill="#00FF9C"/>
+
+    <text x="0" y="75">Vulnerability Surface</text>
+    <text x="175" y="75" text-anchor="end" fill="#27C93F">MINIMAL (0.2%)</text>
+    <rect x="0" y="81" width="175" height="4" rx="2" fill="#161B22"/>
+    <rect x="0" y="81" width="15" height="4" rx="2" fill="#27C93F"/>
+
+    <text x="0" y="110">Zero-Day Tolerance</text>
+    <text x="175" y="110" text-anchor="end" fill="#FF5F56">0.00%</text>
+    <rect x="0" y="116" width="175" height="4" rx="2" fill="#161B22"/>
+    <rect x="0" y="116" width="175" height="4" rx="2" fill="#58A6FF"/>
+
+    <text x="0" y="150">Incident Response</text>
+    <text x="175" y="150" text-anchor="end" fill="#00FF9C">AUTOMATED</text>
+  </g>
 </svg>

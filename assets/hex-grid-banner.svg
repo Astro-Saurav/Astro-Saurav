@@ -1,0 +1,142 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Courier New',monospace">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF9C"/>
+      <stop offset="50%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#00FF9C"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bgGrad)"/>
+
+  <!-- Hex grid background pattern -->
+  <!-- Row 1 -->
+  <polygon points="30,10 50,10 60,27 50,44 30,44 20,27" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.3"/>
+  <polygon points="70,10 90,10 100,27 90,44 70,44 60,27" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.3"/>
+  <polygon points="110,10 130,10 140,27 130,44 110,44 100,27" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.15"/>
+  <polygon points="710,10 730,10 740,27 730,44 710,44 700,27" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.15"/>
+  <polygon points="750,10 770,10 780,27 770,44 750,44 740,27" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.3"/>
+  <polygon points="790,10 810,10 820,27 810,44 790,44 780,27" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.3"/>
+  <polygon points="830,10 850,10 860,27 850,44 830,44 820,27" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.2"/>
+  <polygon points="870,10 890,10 900,27 890,44 870,44 860,27" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Row 2 -->
+  <polygon points="10,44 30,44 40,61 30,78 10,78 0,61" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.3"/>
+  <polygon points="50,44 70,44 80,61 70,78 50,78 40,61" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.2">
+    <animate attributeName="fill" values="none;rgba(31,111,235,0.15);none" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+  </polygon>
+  <polygon points="90,44 110,44 120,61 110,78 90,78 80,61" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.15"/>
+  <polygon points="730,44 750,44 760,61 750,78 730,78 720,61" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.15"/>
+  <polygon points="770,44 790,44 800,61 790,78 770,78 760,61" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.2">
+    <animate attributeName="fill" values="none;rgba(0,255,156,0.1);none" dur="4s" repeatCount="indefinite" begin="1s"/>
+  </polygon>
+  <polygon points="810,44 830,44 840,61 830,78 810,78 800,61" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.3"/>
+  <polygon points="850,44 870,44 880,61 870,78 850,78 840,61" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Row 3 -->
+  <polygon points="30,78 50,78 60,95 50,112 30,112 20,95" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.2">
+    <animate attributeName="fill" values="none;rgba(31,111,235,0.2);none" dur="5s" repeatCount="indefinite" begin="2s"/>
+  </polygon>
+  <polygon points="70,78 90,78 100,95 90,112 70,112 60,95" fill="none" stroke="#00FF9C" stroke-width="0.7" opacity="0.4"/>
+  <polygon points="110,78 130,78 140,95 130,112 110,112 100,95" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.1"/>
+  <polygon points="730,78 750,78 760,95 750,112 730,112 720,95" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.1"/>
+  <polygon points="770,78 790,78 800,95 790,112 770,112 760,95" fill="none" stroke="#00FF9C" stroke-width="0.7" opacity="0.4"/>
+  <polygon points="810,78 830,78 840,95 830,112 810,112 800,95" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.2">
+    <animate attributeName="fill" values="none;rgba(0,255,156,0.15);none" dur="3.5s" repeatCount="indefinite" begin="1.5s"/>
+  </polygon>
+  <polygon points="850,78 870,78 880,95 870,112 850,112 840,95" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Row 4 -->
+  <polygon points="10,112 30,112 40,129 30,146 10,146 0,129" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.25"/>
+  <polygon points="50,112 70,112 80,129 70,146 50,146 40,129" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.15"/>
+  <polygon points="730,112 750,112 760,129 750,146 730,146 720,129" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.15"/>
+  <polygon points="770,112 790,112 800,129 790,146 770,146 760,129" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.25"/>
+  <polygon points="810,112 830,112 840,129 830,146 810,146 800,129" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.3">
+    <animate attributeName="fill" values="none;rgba(31,111,235,0.15);none" dur="4.5s" repeatCount="indefinite" begin="0.8s"/>
+  </polygon>
+  <polygon points="850,112 870,112 880,129 870,146 850,146 840,129" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Row 5 -->
+  <polygon points="30,146 50,146 60,163 50,180 30,180 20,163" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.2"/>
+  <polygon points="70,146 90,146 100,163 90,180 70,180 60,163" fill="none" stroke="#00FF9C" stroke-width="0.5" opacity="0.3">
+    <animate attributeName="fill" values="none;rgba(0,255,156,0.12);none" dur="6s" repeatCount="indefinite" begin="3s"/>
+  </polygon>
+  <polygon points="110,146 130,146 140,163 130,180 110,180 100,163" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.1"/>
+  <polygon points="730,146 750,146 760,163 750,180 730,180 720,163" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.1"/>
+  <polygon points="770,146 790,146 800,163 790,180 770,180 760,163" fill="none" stroke="#00FF9C" stroke-width="0.5" opacity="0.3">
+    <animate attributeName="fill" values="none;rgba(0,255,156,0.12);none" dur="6s" repeatCount="indefinite" begin="1.2s"/>
+  </polygon>
+  <polygon points="810,146 830,146 840,163 830,180 810,180 800,163" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.2"/>
+  <polygon points="850,146 870,146 880,163 870,180 850,180 840,163" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Row 6 -->
+  <polygon points="30,180 50,180 60,197 50,214 30,214 20,197" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.15"/>
+  <polygon points="70,180 90,180 100,197 90,214 70,214 60,197" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.1"/>
+  <polygon points="750,180 770,180 780,197 770,214 750,214 740,197" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.1"/>
+  <polygon points="790,180 810,180 820,197 810,214 790,214 780,197" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.15"/>
+  <polygon points="830,180 850,180 860,197 850,214 830,214 820,197" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.2"/>
+  <polygon points="870,180 890,180 900,197 890,214 870,214 860,197" fill="none" stroke="#1F6FEB" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Top classification bar -->
+  <rect x="0" y="0" width="900" height="3" fill="#00FF9C" opacity="0.6"/>
+
+  <!-- Scanning line animation -->
+  <rect x="0" y="0" width="900" height="2" fill="#00FF9C" opacity="0">
+    <animate attributeName="y" from="-2" to="222" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.05;0.95;1" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- CLEARANCE tag -->
+  <rect x="20" y="14" width="200" height="18" rx="2" fill="#00FF9C" opacity="0.12"/>
+  <rect x="20" y="14" width="200" height="18" rx="2" fill="none" stroke="#00FF9C" stroke-width="0.7" opacity="0.5"/>
+  <text x="30" y="27" font-size="10" fill="#00FF9C" opacity="0.9" letter-spacing="2">// CLEARANCE: SIGMA-3 //</text>
+
+  <!-- Version / timestamp top-right -->
+  <text x="880" y="27" font-size="9" fill="#8B949E" opacity="0.7" text-anchor="end">SEC::PROFILE v2.6</text>
+
+  <!-- Main name — centered -->
+  <text x="450" y="100" font-size="52" font-weight="700" text-anchor="middle"
+        fill="url(#textGrad)" filter="url(#glow)" letter-spacing="4">SAURAV KUMAR</text>
+
+  <!-- Subtitle line -->
+  <text x="450" y="130" font-size="13.5" text-anchor="middle" fill="#58A6FF" letter-spacing="3" opacity="0.9">
+    CYBERSECURITY ANALYST  ·  APPSEC  ·  SECURE SDLC  ·  VAPT
+  </text>
+
+  <!-- Divider lines flanking subtitle -->
+  <line x1="155" y1="130" x2="255" y2="130" stroke="#1F6FEB" stroke-width="0.8" opacity="0.5"/>
+  <line x1="645" y1="130" x2="745" y2="130" stroke="#1F6FEB" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Status indicators bottom -->
+  <circle cx="160" cy="168" r="4" fill="#00FF9C" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="172" y="173" font-size="11" fill="#8B949E" letter-spacing="1.5">STATUS: ONLINE</text>
+
+  <circle cx="360" cy="168" r="4" fill="#58A6FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.4s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+  <text x="372" y="173" font-size="11" fill="#8B949E" letter-spacing="1.5">THREAT-LVL: MITIGATED</text>
+
+  <circle cx="600" cy="168" r="4" fill="#FFBD2E" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite" begin="1.2s"/>
+  </circle>
+  <text x="612" y="173" font-size="11" fill="#8B949E" letter-spacing="1.5">MODE: RECON</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="217" width="900" height="3" fill="#1F6FEB" opacity="0.5"/>
+</svg>
