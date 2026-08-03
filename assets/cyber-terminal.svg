@@ -1,0 +1,42 @@
+<svg width="800" height="230" viewBox="0 0 800 230" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Courier New',monospace">
+  <defs>
+    <clipPath id="c1"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="176" begin="0.3s;loop.begin+0.3s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="356" begin="1.3s;loop.begin+1.3s" dur="1.1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="176" begin="2.6s;loop.begin+2.6s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="192" begin="3.5s;loop.begin+3.5s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="158" begin="4.4s;loop.begin+4.4s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c6"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="426" begin="5.3s;loop.begin+5.3s" dur="1.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c7"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="70" begin="7.2s;loop.begin+7.2s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c8"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="330" begin="8.1s;loop.begin+8.1s" dur="1.0s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- window chrome -->
+  <rect x="1" y="1" width="798" height="228" rx="10" fill="#0D1117" stroke="#1F6FEB" stroke-width="1.5"/>
+  <rect x="1" y="1" width="798" height="34" rx="10" fill="#161B22"/>
+  <rect x="1" y="20" width="798" height="15" fill="#161B22"/>
+  <circle cx="24" cy="18" r="6" fill="#FF5F56"/>
+  <circle cx="44" cy="18" r="6" fill="#FFBD2E"/>
+  <circle cx="64" cy="18" r="6" fill="#27C93F"/>
+  <text x="400" y="23" text-anchor="middle" fill="#8B949E" font-size="12">root@astro-saurav: ~</text>
+
+  <!-- invisible loop driver: restarts the whole sequence every 10.5s -->
+  <rect x="0" y="0" width="1" height="1" opacity="0">
+    <animate id="loop" attributeName="opacity" values="0;0" dur="10.5s" begin="0s;loop.end" fill="freeze"/>
+  </rect>
+
+  <g font-size="14.5" font-weight="500">
+    <g clip-path="url(#c1)"><text x="24" y="66" fill="#00FF9C">$ nmap -sV 10.0.0.1</text></g>
+    <g clip-path="url(#c2)"><text x="24" y="90" fill="#8B949E">Starting Nmap 7.94 ( https://nmap.org )</text></g>
+    <g clip-path="url(#c3)"><text x="24" y="114" fill="#58A6FF">22/tcp&#160;&#160;&#160;open&#160;&#160;&#160;ssh</text></g>
+    <g clip-path="url(#c4)"><text x="24" y="138" fill="#58A6FF">443/tcp&#160;&#160;open&#160;&#160;&#160;https</text></g>
+    <g clip-path="url(#c5)"><text x="24" y="162" fill="#8B949E">1000/tcp&#160;filtered</text></g>
+    <g clip-path="url(#c6)"><text x="24" y="186" fill="#00FF9C">Scan complete: 0 critical vulnerabilities found</text></g>
+    <g clip-path="url(#c7)"><text x="24" y="210" fill="#00FF9C">$ whoami</text></g>
+    <g clip-path="url(#c8)"><text x="118" y="210" fill="#F0F6FC">astro-saurav // sec+dev_</text></g>
+  </g>
+
+  <!-- blinking cursor, appears once the last line is fully typed, blinks until the loop restarts -->
+  <rect x="420" y="198" width="9" height="16" fill="#00FF9C" opacity="0">
+    <animate attributeName="opacity" values="1;0" begin="9.1s;loop.begin+9.1s" dur="0.55s" repeatCount="2.5" fill="freeze"/>
+  </rect>
+</svg>
