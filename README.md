@@ -2,167 +2,120 @@
 
 <img src="https://raw.githubusercontent.com/Astro-Saurav/Astro-Saurav/main/assets/hex-grid-banner.svg" width="100%" alt="Saurav Kumar - Cybersecurity Analyst & Full-Stack Developer"/>
 
-<br/>
+<br/><br/>
 
-<img src="https://raw.githubusercontent.com/Astro-Saurav/Astro-Saurav/main/assets/dossier-terminal.svg" width="100%" alt="Interactive Dossier Terminal"/>
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Astro-Saurav&color=00ff9c&style=flat-square&label=TARGET+RECON+VIEWS)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A1628?style=flat-square&logo=linkedin&logoColor=00FF9C&borderColor=00FF9C)](https://www.linkedin.com/in/saurav-kumar-astro?originalSubdomain=in)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=flat-square&logo=firefox&logoColor=00FF9C)](https://astro-saurav.xyz)
-[![Email](https://img.shields.io/badge/Encrypted_Mail-1F6FEB?style=flat-square&logo=gmail&logoColor=white)](mailto:0501saurav@gmail.com)
-[![IEEE Publication](https://img.shields.io/badge/IEEE_Xplore-Research_Paper-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11386307)
+[![Profile Views](https://komarev.com/ghpvc/?username=Astro-Saurav&color=00FF9C&style=flat-square&label=TARGET+RECON+VIEWS)](https://github.com/Astro-Saurav)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=00FF9C&borderColor=1F6FEB)](https://www.linkedin.com/in/saurav-kumar-astro?originalSubdomain=in)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=flat-square&logo=firefox&logoColor=00FF9C&borderColor=1F6FEB)](https://astro-saurav.xyz)
+[![Encrypted Mail](https://img.shields.io/badge/Encrypted_Mail-0D1117?style=flat-square&logo=gmail&logoColor=00FF9C&borderColor=1F6FEB)](mailto:0501saurav@gmail.com)
+[![IEEE Publication](https://img.shields.io/badge/IEEE_Xplore-Research_Dossier-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11386307)
 
 </div>
 
 <br/>
 
-```yaml
-# [OPERATOR SPECIALITY MATRIX]
-Architecture      : Secure by Design (Secure SDLC, Zero-Trust Principles, Defensive Programming)
-Offensive Security: Web Application VAPT, OWASP Top 10 Exploitation, Custom DAST Tooling
-Defensive Security: Threat Modeling, RBAC/JWT Hardening, Automated Phishing & Anomaly Detection
-Engineering       : Full-Stack (Next.js 15 / React / Express / Prisma) + AI/ML Interop (PyTorch / LLMs)
-Current Location  : Faridabad, Haryana, India
-```
+> **`[OBJECTIVE]`** Cybersecurity-focused Full-Stack Engineer and Application Security Specialist. Proven track record in orchestrating large-scale vulnerability assessments, publishing peer-reviewed AI security research, and engineering resilient, Zero-Trust applications.
 
-<br/>
+---
 
-## <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/security/security.png" width="22" height="22" /> [0x01] COMMAND & OPERATIONAL FOCUS
+## ⚡ 0x01 · Deployed Countermeasures & Security Platforms
 
 <table>
   <tr>
-    <td width="50%" valign="top" style="border: 1px solid #1F6FEB; background-color: #0D1117; padding: 15px;">
-      <h4>🌐 Partner — Cybersecurity Community Operations</h4>
-      <code><b>DCG Gurugram</b> | Aug 2025 – Present</code>
+    <td width="50%" valign="top" style="padding: 18px; border: 1px solid #1F6FEB;">
+      <h4>🕷️ <a href="https://github.com/Astro-Saurav/Defendrix">Defendrix — Automated DAST Framework</a></h4>
+      <code>Python · Flask · Selenium · MySQL</code>
       <br/><br/>
-      <ul>
-        <li>Directing end-to-end operational planning and technical execution of vulnerability research meetups, CTF simulations, and workshops.</li>
-        <li>Architecting structured outreach programs and collaborating with elite industry security practitioners to elevate offensive and defensive security readiness.</li>
-      </ul>
+      <p>An automated <b>OWASP Top 10 Dynamic Application Security Testing (DAST)</b> engine. Maps web attack surfaces in real-time, autonomously tests payload injection vectors, enumerates exposed REST endpoints, and synthesizes actionable remediation intelligence.</p>
     </td>
-    <td width="50%" valign="top" style="border: 1px solid #1F6FEB; background-color: #0D1117; padding: 15px;">
-      <h4>🛡️ IoT Security Head</h4>
-      <code><b>MRISA (Manav Rachna InfoSec Army)</b> | Aug 2024 – Present</code>
+    <td width="50%" valign="top" style="padding: 18px; border: 1px solid #1F6FEB;">
+      <h4>🛰️ <a href="https://github.com/Astro-Saurav/Knoxguard">KnoxGuard — Autonomous Phishing Defense</a></h4>
+      <code>Python · Flask · Selenium · Threat Heuristics</code>
       <br/><br/>
-      <ul>
-        <li>Spearheading IoT exploitation and embedded system security initiatives; mentoring peer researchers in hardware hacking and protocol analysis.</li>
-        <li>Orchestrated infrastructure, logistics, and challenge design for campus-wide CTFs engaging <b>700+ active participants</b>.</li>
-        <li>Authored customized web-exploitation battlegrounds & vulnerability simulation labs covering the entire OWASP Top 10 spectrum.</li>
-      </ul>
+      <p>A desktop intrusion-prevention and URL analysis tool. Evaluates real-time web traffic against suspicious structural semantics and phishing signatures, alerting users instantly to compromise attempts before execution.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="padding: 18px; border: 1px solid #1F6FEB;">
+      <h4>📰 <a href="https://github.com/Astro-Saurav/SMEH_NEWS">SMEH News Platform — Hardened CMS</a></h4>
+      <code>Next.js 15 · React 19 · Express · Prisma · VPS</code>
+      <br/><br/>
+      <p>A high-concurrency content management platform engineered with Zero-Trust principles. Integrates hardened JWT authentication, Role-Based Access Control (RBAC), secure input sanitization pipelines, and self-healing deployment workflows.</p>
+    </td>
+    <td width="50%" valign="top" style="padding: 18px; border: 1px solid #1F6FEB;">
+      <h4>🤖 <a href="https://github.com/Astro-Saurav/AssistAI">AssistAI — Multimodal Cognitive Companion</a></h4>
+      <code>Next.js · TypeScript · Firebase Genkit · Gemini Vision</code>
+      <br/><br/>
+      <p>An artificial intelligence vision companion designed for real-time spatial orientation and accessibility. Harnesses deep multimodal LLM pipelines to interpret complex physical environments and decode sign language in low-latency streams.</p>
     </td>
   </tr>
 </table>
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" width="22" height="22" /> [0x02] THE CYBER ARSENAL (DEFENSE & OFFENSE MATRIX)
+---
+
+## 🌐 0x02 · Operational Command & Leadership
+
+### 📍 Partner — Cybersecurity Community Operations  
+**[DCG Gurugram]** · `Aug 2025 – Present`  
+- Directing operational governance and architectural execution of regional vulnerability research meetups, live exploit simulations, and interactive offensive security workshops.  
+- Developing collaborative bridges between professional offensive security practitioners, industry leaders, and academic researchers to strengthen defensive readiness.  
+
+### 📍 IoT Security Head  
+**[MRISA — Manav Rachna InfoSec Army]** · `Aug 2024 – Present`  
+- Leading IoT security exploration, embedded device firmware analysis, and protocol security initiatives; mentoring junior security analysts in hardware exploitation.  
+- Designed target architectures, containerized infrastructure, and custom vulnerability challenges for university-wide Capture The Flag (CTF) events engaging **700+ active contestants**.  
+- Authored hands-on exploitation battlegrounds demonstrating mitigation strategies across the entire **OWASP Top 10** threat matrix.  
+
+<br/>
+
+---
+
+## 🛡️ 0x03 · Defense & Offense Architecture
 
 <div align="center">
-  <table>
-    <thead>
-      <tr>
-        <th width="25%" align="center">🔴 Offensive / Recon</th>
-        <th width="25%" align="center">🟢 Defensive / AppSec</th>
-        <th width="25%" align="center">⚡ Engineering & Cloud</th>
-        <th width="25%" align="center">🤖 Cognitive Security (AI)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td valign="top" align="center">
-          <br/>
-          <img src="https://img.shields.io/badge/VAPT-FF4500?style=for-the-badge&logo=hackaday&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/CTF_Operations-6E40C9?style=for-the-badge&logo=hackthebox&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/Burp_Suite_&_DAST-FF6633?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-          <br/><br/>
-        </td>
-        <td valign="top" align="center">
-          <br/>
-          <img src="https://img.shields.io/badge/Threat_Modeling-D32936?style=for-the-badge&logo=shieldsdotio&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/Secure_SDLC-27C93F?style=for-the-badge&logo=githubactions&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/Zero--Trust_Auth-1F6FEB?style=for-the-badge&logo=openid&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/Linux_Hardening-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-          <br/><br/>
-        </td>
-        <td valign="top" align="center">
-          <br/>
-          <img src="https://img.shields.io/badge/Python_&_Bash-3776AB?style=for-the-badge&logo=python&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/Next.js_15_&_React-000000?style=for-the-badge&logo=next.js&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/Docker_&_Azure-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-          <br/><br/>
-        </td>
-        <td valign="top" align="center">
-          <br/>
-          <img src="https://img.shields.io/badge/LLM_Interactions-412991?style=for-the-badge&logo=openai&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/><br/><br/>
-          <img src="https://img.shields.io/badge/Firebase_Genkit-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-          <br/><br/>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+
+| 🔴 Offensive Security & VAPT | 🟢 Defensive & AppSec | ⚡ Engineering & Cloud | 🤖 Cognitive & AI Security |
+| :---: | :---: | :---: | :---: |
+| ![VAPT](https://img.shields.io/badge/VAPT-FF4500?style=for-the-badge&logo=hackaday&logoColor=white) | ![Threat Modeling](https://img.shields.io/badge/Threat_Modeling-D32936?style=for-the-badge&logo=shieldsdotio&logoColor=white) | ![Python](https://img.shields.io/badge/Python_&_Bash-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![LLM Security](https://img.shields.io/badge/LLM_Security-412991?style=for-the-badge&logo=openai&logoColor=white) |
+| ![OWASP Top 10](https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white) | ![Secure SDLC](https://img.shields.io/badge/Secure_SDLC-27C93F?style=for-the-badge&logo=githubactions&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) |
+| ![CTF Operations](https://img.shields.io/badge/CTF_Operations-6E40C9?style=for-the-badge&logo=hackthebox&logoColor=white) | ![Zero-Trust Auth](https://img.shields.io/badge/Zero--Trust_Auth-1F6FEB?style=for-the-badge&logo=openid&logoColor=white) | ![Next.js 15](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=next.js&logoColor=white) | ![Computer Vision](https://img.shields.io/badge/Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) |
+| ![Burp Suite & DAST](https://img.shields.io/badge/DAST_&_Tooling-FF6633?style=for-the-badge&logo=kalilinux&logoColor=white) | ![Linux Hardening](https://img.shields.io/badge/Linux_Hardening-FCC624?style=for-the-badge&logo=linux&logoColor=black) | ![Docker & Azure](https://img.shields.io/badge/Docker_&_Azure-2496ED?style=for-the-badge&logo=docker&logoColor=white) | ![Firebase Genkit](https://img.shields.io/badge/Firebase_Genkit-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) |
+
 </div>
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png" width="22" height="22" /> [0x03] DEPLOYED COUNTERMEASURES (SECURITY TOOLING & PLATFORMS)
+---
 
-<table>
-  <tr>
-    <td width="50%" valign="top" style="padding: 15px;">
-      <h3>🕷️ <a href="https://github.com/Astro-Saurav/Defendrix">Defendrix</a></h3>
-      <code>Python · Flask · Selenium · DAST · MySQL</code>
-      <p>An automated <b>OWASP Top 10 dynamic vulnerability analysis framework</b>. Leverages Selenium-driven DAST scanning to map application attack surfaces, enumerate endpoints, test payload injection vectors, and synthesize structured mitigation reports.</p>
-    </td>
-    <td width="50%" valign="top" style="padding: 15px;">
-      <h3>🛰️ <a href="https://github.com/Astro-Saurav/Knoxguard">KnoxGuard</a></h3>
-      <code>Python · Flask · Selenium · Rule-Based Heuristics</code>
-      <p>An autonomous desktop URL threat-hunting engine. Inspects live web traffic and flags fraudulent phishing infrastructure via deep rule-based validation, domain reputation analysis, and immediate alert notification protocols.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" style="padding: 15px;">
-      <h3>📰 <a href="https://github.com/Astro-Saurav/SMEH_NEWS">SMEH News Platform</a></h3>
-      <code>Next.js 15 · React 19 · Express · Prisma · VPS</code>
-      <p>A battle-tested enterprise content publishing system designed with hardened defensive principles. Implements tight JWT authentication, fine-grained RBAC, rigorous file validation pipelines, and automated zero-downtime database migrations on a self-recovering Linux VPS.</p>
-    </td>
-    <td width="50%" valign="top" style="padding: 15px;">
-      <h3>🤖 <a href="https://github.com/Astro-Saurav/AssistAI">AssistAI</a></h3>
-      <code>Next.js · TypeScript · Firebase Genkit · Gemini Vision</code>
-      <p>An intelligent accessibility companion utilizing cutting-edge computer vision and generative multimodal artificial intelligence to provide real-time visual assistance, sign-language decoding, and dynamic environment spatial cognition.</p>
-    </td>
-  </tr>
-</table>
+## 📑 0x04 · Published Intelligence & Engagement Honors
 
-<br/>
+### 🔬 Peer-Reviewed Security Research
+```yaml
+Title       : "AI-Driven Techniques for Web Search Vulnerability Identification"
+Publication : IEEE Xplore (2026)
+Co-Authors  : Alan Jolly John, Sarthak Dubey, Saurav Kumar
+Abstract    : Researched and developed modern cognitive algorithms and machine learning models to autonomously test, identify, and categorize structural vulnerabilities within distributed web search architectures.
+Link        : https://ieeexplore.ieee.org/document/11386307
+```
 
-## <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/machine-learning/machine-learning.png" width="22" height="22" /> [0x04] PEER-REVIEWED INTELLIGENCE & COMBAT RECORD
+### ⚔️ Combat Record & CTF Victories
 
-### 📑 Research & Publication
-> **"AI-Driven Techniques for Web Search Vulnerability Identification"**  
-> *Published in IEEE Xplore (2026)* | Co-authors: Alan Jolly John, Sarthak Dubey  
-> 🔍 Investigates novel machine learning frameworks and automated scanning methodologies to discover cognitive and structural vulnerabilities within web search infrastructure.  
-> 🔗 **[Access Research Dossier on IEEE Xplore](https://ieeexplore.ieee.org/document/11386307)**
-
-### ⚔️ Combat Record & Engagement Honors
-
-| Date / Year | Event & Engagement Details | Rank & Classification | Outcome |
+| Date / Year | Engagement & Competition Details | Classification | Outcome |
 | :---: | :--- | :---: | :---: |
-| **2025** | **INTRUSIONX** (Offensive Security & VAPT Hackathon) | `Rank #1` | 🥇 **WINNER** |
-| **2024** | **Avinya Tech Fest**, IIT Guwahati | `National Finalist` | 🎖️ **FINALIST** |
-| **2023** | **Hacksplash 1.0** (Software Innovation Hackathon) | `Rank #1` | 🥇 **WINNER** |
-| **2024** | **CyCog CTF** (Capture The Flag Competition) | `Rank #8` | 🏅 **TOP 10** |
-| **2023** | **CyberHavoc CTF** | `Rank 170 / 1500+` | 🏅 **TOP 11%** |
-| **2023** | **Tech Trover Debugging** | `Rank #3` | 🥉 **3RD PLACE** |
+| **2025** | **INTRUSIONX** (Offensive Security & VAPT Battleground) | `Rank #1` | 🥇 **WINNER** |
+| **2024** | **Avinya Tech Fest**, IIT Guwahati (National Hackathon) | `National Finalist` | 🎖️ **FINALIST** |
+| **2023** | **Hacksplash 1.0** (Software Engineering & Innovation) | `Rank #1` | 🥇 **WINNER** |
+| **2024** | **CyCog CTF** (Capture The Flag Security Competition) | `Rank #8` | 🏅 **TOP 10** |
+| **2023** | **CyberHavoc CTF** (National Cybersecurity Tournament) | `Rank 170 / 1500+` | 🏅 **TOP 11%** |
+| **2023** | **Tech Trover Debugging** (Algorithmic & Code Debugging) | `Rank #3` | 🥉 **3RD PLACE** |
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/data-science/data-science.png" width="22" height="22" /> [0x05] SOC TELEMETRY & DEVELOPMENT ACTIVITY
+---
+
+## 📡 0x05 · SOC Telemetry & Development Activity
 
 <div align="center">
 
@@ -170,12 +123,12 @@ Current Location  : Faridabad, Haryana, India
 
 <br/><br/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Astro-Saurav&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Astro-Saurav&layout=compact&theme=chartreuse-dark&hide_border=true" alt="Top Languages"/>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=Astro-Saurav&show_icons=true&theme=dark&bg_color=0A0E14&title_color=00FF9C&text_color=C9D1D9&icon_color=58A6FF&border_color=1F6FEB&hide_border=false&include_all_commits=true&count_private=true" height="175" alt="GitHub Stats"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Astro-Saurav&layout=compact&theme=dark&bg_color=0A0E14&title_color=00FF9C&text_color=C9D1D9&border_color=1F6FEB&hide_border=false&hide=html,css" height="175" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Astro-Saurav&theme=react-dark&hide_border=true" width="95%" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Astro-Saurav&bg_color=0A0E14&color=00FF9C&line=1F6FEB&point=00FF9C&area_color=0A1420&area=true&hide_border=false" width="95%" alt="Contribution Graph"/>
 
 </div>
 
