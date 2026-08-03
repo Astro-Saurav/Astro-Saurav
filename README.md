@@ -128,8 +128,11 @@ Link        : https://ieeexplore.ieee.org/document/11386307
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Astro-Saurav&bg_color=0A0E14&color=00FF9C&line=1F6FEB&point=00FF9C&area_color=0A1420&area=true&hide_border=false" width="95%" alt="Contribution Graph"/>
+<img src="https://streak-stats.demolab.com/?user=Astro-Saurav&theme=dark&background=0A0E14&border=1F6FEB&currStreakNum=00FF9C&sideNums=58A6FF&currStreakLabel=00FF9C&hide_border=false" alt="GitHub Streak Stats"/>
 
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Astro-Saurav&theme=react-dark&hide_border=true" width="95%" alt="Contribution Graph"/>
 </div>
 
 <br/>
